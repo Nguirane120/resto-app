@@ -108,18 +108,18 @@
       title: 'Pizza Margherita',
       price: 10,
       quantity: 2,
-      toppings: ['Basil', 'Tomato'],
-      sauces: ['Tomato Sauce'],
-      imgSrc: 'https://via.placeholder.com/100' // Remplace par une vraie image si tu veux
+      toppings: 'Basil',
+      sauces: 'Tomato Sauce',
+      imgSrc: 'https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg'
     },
     {
       id: 2,
       title: 'Burger Deluxe',
       price: 8,
       quantity: 1,
-      toppings: ['Lettuce', 'Tomato', 'Cheese'],
-      sauces: ['Mayo', 'Ketchup'],
-      imgSrc: 'https://via.placeholder.com/100'
+      toppings: 'Lettuce', 
+      sauces: 'Ketchup',
+      imgSrc: 'https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg'
     }
   ]);
   
@@ -162,5 +162,13 @@
   const checkout = () => {
     alert(`Processing order for €${total.value.toFixed(2)}`);
   };
+
+  const updateQuantity = () =>{
+
+  }
+
+  const removeItem = () =>{
+
+  }
   </script>
   

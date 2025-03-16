@@ -73,7 +73,7 @@
     
     },
     price: {
-      type: String,
+      type: Number,
     },
     quantity: {
       type: Number,

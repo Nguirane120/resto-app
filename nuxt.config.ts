@@ -8,14 +8,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  app: {
-    head: {
-      title: 'Restaurant App',
-      meta: [
-        { name: 'description', content: 'Application de commande pour restaurant' }
-      ],
-    }
-  }
+
 
   
 });

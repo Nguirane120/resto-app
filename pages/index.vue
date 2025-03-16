@@ -20,24 +20,24 @@
           <Card 
             title="Capricciosa" 
             price="€10.50" 
-            imgSrc=""
+            imgSrc="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg"
             isPopular
           />
           <Card 
             title="Pesto Chicken Club" 
             price="€11.50" 
-            imgSrc=""
+            imgSrc="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg"
             isHighlyRated
           />
           <Card 
             title="Pesto Chicken Club" 
             price="€12.50" 
-            imgSrc=""
+            imgSrc="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg"
           />
           <Card 
             title="BBQ Chicken" 
             price="€13.50" 
-            imgSrc=""
+            imgSrc="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg"
           />
         </div>
       </div>
