@@ -43,13 +43,15 @@
   const emit = defineEmits(['category-change']);
   
   const categories = [
-    { id: 'classic-pizzas', name: 'Classic Pizzas', count: '8' },
-    { id: 'starters', name: 'Starters', count: '7' },
-    { id: 'desserts', name: 'Desserts', count: '3' },
-    { id: 'drinks', name: 'Drinks', count: '4' },
-    { id: 'canned-beverages', name: 'Canned Beverages', count: '3' },
-    { id: 'extras', name: 'Extras', count: null }
-  ];
+  { id: 'classic-pizzas', name: 'Classic Pizzas', count: '8' },
+  { id: 'starters', name: 'Starters', count: '7' },
+  { id: 'desserts', name: 'Desserts', count: '3' },
+  { id: 'drinks', name: 'Drinks', count: '4' },
+  { id: 'canned-beverages', name: 'Canned Beverages', count: '3' },
+  { id: 'extras', name: 'Extras', count: null },
+  { id: 'senegalese-dishes', name: 'Plats Sénégalais', count: '5' }
+];
+
   
   const activeCategory = ref(props.initialCategory);
   
