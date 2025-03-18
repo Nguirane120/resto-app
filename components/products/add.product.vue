@@ -30,15 +30,14 @@
         errorMessage="Le prix est requis."
       />
 
-      <CustumInput 
-        id="category"
-        label="Catégorie"
-        v-model="productData.category"
-        type="select"
-        :options="['Entrée', 'Plat Principal', 'Dessert', 'Boisson', 'Snack']"
-        :isInvalid="submitted && !productData.category"
-        errorMessage="La catégorie est requise."
-      />
+      <div class="my-4">
+        <label class="block text-gray-700">Catégorie</label>
+        <select v-model="productData.category" class="w-full mt-1 p-2 border border-gray-300 rounded-lg">
+          <option value="">Sélectionnez une catégorie</option>
+          <option value="Dessert">Dessert</option>
+          <option value="Boisson">Boisson</option>
+        </select>
+      </div>
 
       <CustumInput 
         id="imgSrc"

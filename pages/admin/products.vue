@@ -2,7 +2,7 @@
     <div>
         <div class="flex justify-between py-5">
            <h1>Liste des produit</h1>
-           <buttton class="bg-black text-white border-1 p-3 rounded-md" @click="openDialog">Ajouter</buttton>
+           <buttton class="bg-black text-white border-1 p-3 rounded-md cursor-pointer" @click="openDialog">Ajouter</buttton>
         </div>
       <ProductList/>
       <AddProduct v-if="dialogVisible"  v-model:visible="dialogVisible"
